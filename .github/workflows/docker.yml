@@ -13,9 +13,9 @@ jobs:
         docker build ./c# -t santi10/csharp:1.0.0
     - name: docker build nodejs
       run: | 
-        docker build ./nodejs santi10/nodejs:1.0.0
+        docker build ./nodejs -t santi10/nodejs:1.0.0
     - name: docker build python
       run: | 
-        docker build ./nodejs santi10/python:1.0.0
+        docker build ./nodejs -t santi10/python:1.0.0
 
     
