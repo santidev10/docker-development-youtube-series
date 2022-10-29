@@ -23,5 +23,10 @@ jobs:
     - name: docker build python
       run: | 
         docker build ./nodejs -t santi10/python:1.0.0
+    - name: docker push
+      run: |
+        docker push anti10/csharp:1.0.0
+        docker push santi10/nodejs:1.0.0
+        docker push santi10/python:1.0.0
 
     
